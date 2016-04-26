@@ -29,12 +29,12 @@ public class Person_Test {
 		}
 		
 		per1 = new PersonDomainModel();
-		per1.setFirstName("Bert");
-		per1.setLastName("Gibbons");
+		per1.setFirstName("Dalton");
+		per1.setLastName("Ashley");
 		per1.setBirthday(dDate);
-		per1.setCity("Townsend");
-		per1.setPostalCode(19010);
-		per1.setStreet("214 Labrador Lane");
+		per1.setCity("Middletown");
+		per1.setPostalCode(19709);
+		per1.setStreet("406 Hope Drive");
 	}
 
 	@AfterClass

@@ -1,7 +1,6 @@
 package domain;
 
 
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.UUID;
 
@@ -61,8 +60,6 @@ public class PersonDomainModel {
         this.street=street;
     }
 
-
-
     public int getPostalCode() {
         return postalCode;
     }
@@ -72,7 +69,6 @@ public class PersonDomainModel {
     }
 
 
-
     public String getCity() {
         return city;
     }
@@ -80,8 +76,6 @@ public class PersonDomainModel {
     public void setCity(String city) {
         this.city=city;
     }
-
-
 
     public Date getBirthday() {
         return birthday;
